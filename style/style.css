@@ -1,0 +1,291 @@
+body {
+  background: #121212 !important;
+  background-image: none !important;
+  color: #f7f7f7 !important;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+p, div, span, h1, h2, h3, h4, h5, h6, label, input, select, textarea, button {
+  color: #f7f7f7 !important;
+}
+
+/* Make sure input fields and select boxes have dark backgrounds and light text */
+input, select, textarea, button, .stSelectbox, [data-testid="stForm"] {
+  background-color: #1e1e1e !important;
+  border-color: #333 !important;
+}
+
+div[data-testid="StyledLinkIconContainer"] > a, div[data-testid="StyledLinkIconContainer"] > a > svg {
+  background-color: rgba(255, 255, 255,0);
+  stroke: rgba(0, 0, 0, 0);
+}
+
+#popup {
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.button-17, div[data-testid="column"] > div > div > div > div > div > button {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+  margin: 0 auto;
+}
+
+.button-17, div[data-testid="column"] > div > div > div > div > div > button:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+.button-17, div[data-testid="column"] > div > div > div > div > div > button:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.button-17, div[data-testid="column"] > div > div > div > div > div > button:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+.DidYouKnow_root {
+  box-shadow: rgba(77, 131, 132, 0.1) 0px 0px 0.5px 1px, rgba(0, 0, 0, 0.024) 0px 0.5px 0.9px, rgba(0, 0, 0, 0.035) 0px 1.4px 2.5px, rgba(0, 0, 0, 0.04) 0px 3.3px 6px, rgba(0, 0, 0, 0.06) 0px 11px 20px;
+  cursor: pointer;
+  padding: 0.5rem 20px;
+  background: rgb(255, 255, 255);
+  border-radius: 2rem;
+  margin: 1.75em 0px;
+  max-width: 1000px;
+  overflow: hidden;
+}
+
+.main-md-content {
+  background-color: #f5f5f5; /* Light grey background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.TextNew {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.DidYouKnow_title {
+  color: rgb(49, 91, 85);
+  margin: 0px;
+  user-select: none;
+}
+
+.DidYouKnow_content {
+  color: rgb(14, 17, 23);
+  margin-top: 0.5rem;
+  padding: 0px 1rem;
+}
+
+h1, h2, h3, h4 {
+  color: rgb(14, 17, 23);
+  color: inherit;
+  text-decoration: none;
+  cursor: default;
+}
+
+button[data-testid="baseButton-primary"] {
+  width: 100%;
+  background-color: #2e7d32 !important;
+  color: white !important;
+}
+
+button[data-testid="baseButton-secondary"] {
+  width: 100%;
+  background-color: #455a64 !important;
+  color: white !important;
+}
+
+div[data-testid="stApp"] {
+  background: None;
+  color: black;
+}
+
+/* Panel background */
+div[id^=tabs-bui][id$=-tabpanel-0] > div > div > div > div > div[class="stMarkdown"],
+div[id^=tabs-bui][id$=-tabpanel-1] > div > div > div > div > div[class="st-ae"],
+div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div[class="st-ae"] {
+  background: rgba(40, 40, 40, 0.8) !important;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div > div[id^=tabs-bui][id$=-tabpanel-0] > div > div > div > div > div[class="stMarkdown"] {
+  background: rgba(255,255,255,0);
+}
+
+div[data-testid="column"] > div > div > div > div > div > p {
+  text-align: center;
+}
+
+div[data-testid="stButton"] {
+  text-align: center;
+}
+
+div[data-testid="column"] > div > div > div > div > div > button > div > p {
+  color: black;
+}
+
+div[data-testid="column"] > div > div > div > div > div > button[kind="secondary"] > div > p {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+svg[xmlns="http://www.w3.org/2000/svg"] {
+  stroke: rgba(0, 0, 0, 0.6);
+}
+
+div[data-testid="stButton"] > button > div > p {
+  color: white !important;
+  font-size: 15px;
+}
+
+header[data-testid="stHeader"] {
+  background: rgba(255,255,255,0);
+}
+
+div[data-testid="stDecoration"] {
+  background: rgba(255,255,255,0);
+}
+
+div[data-baseweb="tab-border"] {
+  display: none;
+}
+
+div[id^=tabs-bui][id$=-tabpanel-0] > div > div > div > div > div[data-testid="column"] > div > div > div > div > div > button[kind="primary"] > div > p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div[data-baseweb="tooltip"] > div {
+  background-color: rgb(255, 255, 255);
+  border-radius: 2rem;
+  padding: 10px;
+}
+
+div[id^=tabs-bui][id$=-tabpanel-4] > div > div > div > div > div > div > div > div > div > div > button[kind="secondary"] {
+  background: #6fa861;
+}
+
+div[id^=tabs-bui][id$=-tabpanel-4] > div > div > div > div > div > div > div > div > div > div > button[kind="secondary"] > div > p {
+  color: rgb(255, 255, 255);
+}
+
+div[data-testid="stMarkdownContainer"] > p > a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border: 0px;
+  font-size: 18px;
+}
+
+div[data-testid="stMarkdownContainer"] > p > a:hover:active {
+  border: 1px solid;
+  border-color: rgb(0, 255, 0);
+}
+
+div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div > div > div > div > div > div[data-testid="stMarkdownContainer"] > p {
+  text-align: center;
+}
+
+div[data-testid="stStyledFullScreenFrame"] > div, div[id^=tabs-bui][id$=-tabpanel-2] > div > div > div > div > div > div[id^=tabs-bui][id$=-tabpanel-0] > div > div > div > div > div > div {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+div[data-testid="stImage"] {
+  max-width: 700px;
+  display: grid;
+}
+
+.icon2 {
+  background: url("data:image/png;base64,{icon2}");
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.icon3 {
+  background: url("data:image/png;base64,{icon3}");
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+/* Streamlit form elements */
+[data-testid="stText"], 
+[data-testid="stNumberInput"], 
+[data-testid="stSelectbox"],
+[data-testid="stMultiselect"],
+[data-testid="stSlider"] {
+  color: #f7f7f7 !important;
+}
+
+/* Slider handles and track */
+[data-testid="stSlider"] > div > div > div {
+  background-color: #2e7d32 !important;
+}
+
+/* Form background */
+[data-testid="stForm"] {
+  background-color: #1e1e1e !important;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #333;
+}
+
+/* Tabs styling */
+[data-testid="stTabs"] > div:first-child {
+  background-color: #1e1e1e !important;
+}
+
+/* Active tab indicator */
+[data-testid="stTabs"] [aria-selected="true"] {
+  color: #4CAF50 !important;
+  font-weight: bold;
+}
+
+/* Icons in the app */
+svg {
+  stroke: #f7f7f7 !important;
+  color: #f7f7f7 !important;
+}
