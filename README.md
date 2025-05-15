@@ -40,10 +40,10 @@ The global annual carbon footprint has now surpassed an alarming 40 billion tons
 
 ## 👨‍👩‍👧‍👦Team Members:
 
-   -Aditya Ranjan<br>
-   -Mahesh Kumar<br>
-   -Ahibhruth A<br>
-   -Ibrahim B
+   -Saarthi Bhatia<br>
+   -Rahul Raikar<br>
+   -Rishit Bist<br>
+   -Rithek JP
 
 ## Credits:
 
